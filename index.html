@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#" data-slide="0">HOME</a></li>
+                <li><a href="#" data-slide="1">PROFILE</a></li>
+                <li><a href="#" data-slide="2">SKILL</a></li>
+                <li><a href="#" data-slide="3">CERTIFICATE</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="swiper">
+        <div class="swiper-wrapper">
+            <section id="home" class="swiper-slide">
+                <h1>Welcome to My Portfolio</h1>
+            </section>
+            <section id="profile" class="swiper-slide">
+                <h2>Profile</h2>
+                <img src="tongari.jpg" alt="Portfolio Image">
+                <p>안녕하세요 프론트 엔드 개발자 정다운 입니다.</p>
+            </section>
+            <section id="skill" class="swiper-slide">
+                <h2>Skills</h2>
+                <p>나의 기술 스택</p>
+            </section>
+            <section id="Certificate" class="swiper-slide">
+                <h2>Projects</h2>
+                <p>자격증</p>
+            </section>
+        </div>
+   
+        <div class="swiper-pagination"></div>
+    </div>
+    
+
+    <footer>
+        <p>&copy; 2025 My Portfolio</p>
+    </footer>
+</body>
+</html>
