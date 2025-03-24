@@ -4,7 +4,7 @@ body {
     padding: 0;
     text-align: center;
     height: 100vh;
-    overflow: hidden; /* 기본적으로 스크롤 막음 (Swiper가 관리) */
+    overflow: hidden; 
 }
 
 header {
@@ -63,7 +63,7 @@ footer {
     padding: 10px;
     width: 100%;
     text-align: center;
-    display: none; /* 기본적으로 숨김 */
+    display: none; 
     position: absolute;
     bottom: 0;
 }
@@ -99,7 +99,7 @@ footer {
 }
 
 .swiper-pagination-bullet-active {
-    background: black; /* 현재 페이지는 검은색 */
+    background: black; 
     opacity: 1;
     transform: scale(1.2);
 }
